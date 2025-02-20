@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import { Github } from "lucide-react";
 import Link from "next/link";
-import { AutocompleteComponent } from "./_components/autocomplete";
+import { AutocompleteComponent } from "@/components/autocomplete";
 
 export default async function Home() {
 	return (
